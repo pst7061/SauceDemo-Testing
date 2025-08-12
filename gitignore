@@ -1,7 +1,7 @@
 # Ignore everything
 *
 
-# Allow folders leading to file
+# Allow folders till SauceDemoTests.java
 !src/
 !src/Automation_Testing/
 !src/Automation_Testing/SauceDemoTests.java
