@@ -1,11 +1,39 @@
-# Ignore build and output folders
-/bin/
-/target/
-/test-output/
+# Java compiled files
 *.class
+
+# Log files
 *.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
 *.zip
 
-# Ignore OS generated files
-.DS_Store
+# IDE specific files
+/.idea/
+/*.iml
+/.project
+/.classpath
+/.settings/
+
+# Maven
+/target/
+
+# TestNG output
+/test-output/
+
+# Custom output files
+/bin/
+/out/
+
+# Windows system files
 Thumbs.db
+ehthumbs.db
+Desktop.ini
