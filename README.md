@@ -76,9 +76,13 @@ TestNG generates HTML reports in the `test-output` folder after test execution. 
 ✅ Logout Test Passed
 ```
 
-> You can also upload these reports to GitHub Pages for a visual preview.
+# SauceDemo Automation Testing Project  
 
----
+This project contains Selenium WebDriver + TestNG automation test cases for [SauceDemo](https://www.saucedemo.com/).  
+
+📊 **Test Report** → [https://pst7061.github.io/SauceDemo-Testing/](https://github.com/pst7061/SauceDemo-Testing/blob/main/test-output/index.html)  
+
+
 
 ## 👨‍💻 Author
 
