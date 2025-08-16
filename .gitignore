@@ -16,18 +16,17 @@
 *.ear
 *.zip
 
-# IDE specific files
-/.idea/
-/*.iml
-/.project
-/.classpath
-/.settings/
+
 
 # Maven
 /target/
 
-# TestNG output
-/test-output/
+# Ignore complete test-output folder
+test-output/
+
+# But allow only index.html inside it
+!test-output/index.html
+
 
 # Custom output files
 /bin/
@@ -37,3 +36,12 @@
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# IDE specific files
+.classpath
+.project
+.settings/
+bin/
+out/
+test-output/
+*.iml
